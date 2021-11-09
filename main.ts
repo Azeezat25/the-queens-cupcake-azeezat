@@ -1,3 +1,4 @@
+basic.showString("START in")
 basic.showString("3-2-1 G0")
 let cupcake = game.createSprite(2, 2)
 let cupcakeOnPlate = true
@@ -29,6 +30,8 @@ while (cupcakeOnPlate) {
     }
 }
 basic.showString("Game Over")
+music.playMelody("F E D D D - - - ", 120)
+basic.showIcon(IconNames.Skull)
 basic.forever(function () {
 	
 })
